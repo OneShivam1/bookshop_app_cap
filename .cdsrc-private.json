@@ -1,0 +1,21 @@
+{
+  "requires": {
+    "[hybrid]": {
+      "auth": {
+        "binding": {
+          "type": "cf",
+          "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
+          "org": "cb8522c7trial",
+          "space": "dev",
+          "instance": "bookstore-auth",
+          "key": "bookstore-auth-key",
+          "resolved": false
+        },
+        "kind": "xsuaa-auth",
+        "vcap": {
+          "name": "auth"
+        }
+      }
+    }
+  }
+}
